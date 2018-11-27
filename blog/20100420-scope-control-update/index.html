@@ -4,7 +4,7 @@
     <head>
         
             
-                <title>Paul Burton&#39;s Blog</title>
+                <title>Scope control update</title>
             
         
 
@@ -22,19 +22,27 @@
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Paul Burton&#39;s Blog"/>
-<meta name="twitter:description" content="Paul Burton&#39;s Blog"/>
+<meta name="twitter:title" content="Scope control update"/>
+<meta name="twitter:description" content="Interrupts on the mbed didn&rsquo;t go so well - it&rsquo;s easy enough to get them to run a function, but some timing issues arose and I gave up on that for now. Instead I&rsquo;m relying on the fact that the Autostar continuously polls for data using the same sequence of bytes - 0x02 0x11 0x02 (which correspond to length 0x02, address 0x11 aka #506 cable and command number 0x02). So, whenever I need to speak to the Autostar I can regain sync by reading data from the Autostar until the last 24 bits read form the value 0x021102 - at which point I&rsquo;m back in sync and ready to go :) It&rsquo;s a bit of a hack, but it works and is good enough for me."/>
 
-        <meta property="og:title" content="Paul Burton&#39;s Blog" />
-<meta property="og:description" content="Paul Burton&#39;s Blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://paulburton.eu/" />
-<meta property="og:updated_time" content="2013-08-25T18:38:00&#43;00:00"/>
+        <meta property="og:title" content="Scope control update" />
+<meta property="og:description" content="Interrupts on the mbed didn&rsquo;t go so well - it&rsquo;s easy enough to get them to run a function, but some timing issues arose and I gave up on that for now. Instead I&rsquo;m relying on the fact that the Autostar continuously polls for data using the same sequence of bytes - 0x02 0x11 0x02 (which correspond to length 0x02, address 0x11 aka #506 cable and command number 0x02). So, whenever I need to speak to the Autostar I can regain sync by reading data from the Autostar until the last 24 bits read form the value 0x021102 - at which point I&rsquo;m back in sync and ready to go :) It&rsquo;s a bit of a hack, but it works and is good enough for me." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulburton.eu/blog/20100420-scope-control-update/" /><meta property="article:published_time" content="2010-04-20T18:09:00&#43;00:00"/>
+<meta property="article:modified_time" content="2010-04-20T18:09:00&#43;00:00"/>
 
         
-<meta itemprop="name" content="Paul Burton&#39;s Blog">
-<meta itemprop="description" content="Paul Burton&#39;s Blog">
+<meta itemprop="name" content="Scope control update">
+<meta itemprop="description" content="Interrupts on the mbed didn&rsquo;t go so well - it&rsquo;s easy enough to get them to run a function, but some timing issues arose and I gave up on that for now. Instead I&rsquo;m relying on the fact that the Autostar continuously polls for data using the same sequence of bytes - 0x02 0x11 0x02 (which correspond to length 0x02, address 0x11 aka #506 cable and command number 0x02). So, whenever I need to speak to the Autostar I can regain sync by reading data from the Autostar until the last 24 bits read form the value 0x021102 - at which point I&rsquo;m back in sync and ready to go :) It&rsquo;s a bit of a hack, but it works and is good enough for me.">
 
+
+<meta itemprop="datePublished" content="2010-04-20T18:09:00&#43;00:00" />
+<meta itemprop="dateModified" content="2010-04-20T18:09:00&#43;00:00" />
+<meta itemprop="wordCount" content="386">
+
+
+
+<meta itemprop="keywords" content="astronomy,autostar,ds2000,mbed,software," />
 
         
 
@@ -273,25 +281,101 @@
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f&text=Scope%20control%20update&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f&title=Scope%20control%20update" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f&title=Scope%20control%20update" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f&title=Scope%20control%20update" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f&description=Scope%20control%20update" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fpaulburton.eu%2fblog%2f20100420-scope-control-update%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
         
-            <article class="post">
+        
+        <article class="post">
   <header>
     <div class="title">
         
-            <h2><a href="/blog/20130825-archlinux-mips/">ArchLinux MIPS</a></h2>
+            <h1><a href="/blog/20100420-scope-control-update/">Scope control update</a></h1>
+            
         
-        
-            <p>The beginning of the ArchLinux MIPS project</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2013-08-25'>
-            August 25, 2013</time>
+            datetime='2010-04-20'>
+            April 20, 2010</time>
         <span class="author"></span>
         
         
@@ -302,44 +386,19 @@
   
 
   
-    
-
-    
-        
-        
-
-
-
-
-
-
-    
-
-
-        
-        
-        
-
-        <a href="/blog/20130825-archlinux-mips/" class="image featured">
-            <img src="/images//20130825-arch-qemu-kde.png" alt="">
-        </a>
-    
-
 
   <div id="content">
-    <p>I&rsquo;ve been working recently on compiling ArchLinux for MIPS, more specifically
-mips32r2. It&rsquo;s going pretty well &amp; I&rsquo;m at the point of having enough packages
-to boot to a KDE desktop both in QEMU and on real hardware. My current focus
-is on automating the building of new and updated packages, which is
-progressing steadily. But in the meantime I thought I&rsquo;d show this and make
-it available to see who might be interested.</p>
+    <p>Interrupts on the mbed didn&rsquo;t go so well - it&rsquo;s easy enough to get them to run a function, but some timing issues arose and I gave up on that for now. Instead I&rsquo;m relying on the fact that the Autostar continuously polls for data using the same sequence of bytes - 0x02 0x11 0x02 (which correspond to length 0x02, address 0x11 aka #506 cable and command number 0x02). So, whenever I need to speak to the Autostar I can regain sync by reading data from the Autostar until the last 24 bits read form the value 0x021102 - at which point I&rsquo;m back in sync and ready to go :) It&rsquo;s a bit of a hack, but it works and is good enough for me. Anyway, with that sorted I was in the position where I could type commands into a terminal to send to the mbed, which would then send them to the scope - but that gets a little tedious. So, this is what I&rsquo;m using as of now:</p>
 
-<p><img src="/images/20130825-arch-novo7paladin.png" alt="Novo7 Paladin Tablet running ArchLinux MIPS" /></p>
+<p><img src="/images/20100420-ascontrol.png" alt="ascontrol scope control GUI" /></p>
 
-<p>For the moment this lives <a href="http://home.paulburton.eu">on my home desktop</a> but
-I&rsquo;ll probably move it somewhere more suitable soon. The repository you&rsquo;ll need:</p>
+<p>It&rsquo;s nice and simple to use, the direction buttons at the top left move the scope at the slew rate selected below. Information about the Autostar system is shown along the top. I&rsquo;m not sure how much functionality I&rsquo;m going to implement on the mbed itself, but I definitely don&rsquo;t want it to sit there as a dumb translator between the PC &amp; Autostar - that just seems wasteful, but it doesn&rsquo;t hurt to have control from the PC in addition to whatever I do on the mbed.</p>
 
-<p>Server = <a href="http://home.paulburton.eu/archlinux/$repo/os/$arch">http://home.paulburton.eu/archlinux/$repo/os/$arch</a></p>
+<p>I even came up with a crazy scheme which might solve the problems with my mounts tracking - stick my webcam in front of the scopes finder and implement something which would watch for movement and move to compensate and keep things in the same positions in the finder. But that would probably be pretty difficult to get working properly and not 100% exact anyway.</p>
+
+<p>Still, I think it&rsquo;s cool to be able to press a button on the PC and have the scope move around, especially considering how long it took me to get it to work :)</p>
+
+<p>Code for the PC app is <a href="http://github.com/paulburton/autostarcontrol">found here</a>. It&rsquo;s built with WebKit/Gtk+ and currently very basic. I&rsquo;ll make the mbed code available at some point soon too.</p>
 
   </div>
 
@@ -358,92 +417,17 @@ I&rsquo;ll probably move it somewhere more suitable soon. The repository you&rsq
 
 <ul class="actions pagination">
     
-        <li><a href="/blog/20120705-announcing-fitbitd/"
-                class="button big previous">Announcing fitbitd</a></li>
+        <li><a href="/blog/20100415-it-speaks/"
+                class="button big previous">It... speaks!!!</a></li>
     
 
+    
+        <li><a href="/blog/20100625-google-stole-2-days/"
+                class="button big next">Google stole the past 2 days of my life</a></li>
     
 </ul>
 
 
-
-            <section id="share-menu">
-    <section id="social-share-nav">
-        <ul class="links">
-            <header>
-                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
-            </header>
-            
-
-
-<li>
-  <a href="//twitter.com/share?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&text=ArchLinux%20MIPS&via=" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-    </a>
-</li>
-
-
-<li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-    </a>
-</li>
-
-
-<li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&title=ArchLinux%20MIPS" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&title=ArchLinux%20MIPS" target="_blank" class="share-btn linkedin">
-      <i class="fa fa-linkedin"></i>
-      <p>LinkedIn</p>
-    </a>
-</li>
-
-
-<li>
-  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&title=ArchLinux%20MIPS" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&description=ArchLinux%20MIPS" target="_blank" class="share-btn pinterest">
-    <i class="fa fa-pinterest-p"></i>
-    <p>Pinterest</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-  </a>
-</li>
-
-        </ul>
-    </section>
-</section>
-
-        
     </div>
     
 <section id="sidebar">

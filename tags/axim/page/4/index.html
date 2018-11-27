@@ -1,11 +1,17 @@
+
+
+
+    
+
+
+
+
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            
-                <title>Paul Burton&#39;s Blog</title>
-            
+            <title>axim - Paul Burton&#39;s Blog</title>
         
 
         <meta charset="utf-8" />
@@ -22,17 +28,17 @@
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Paul Burton&#39;s Blog"/>
+<meta name="twitter:title" content="axim"/>
 <meta name="twitter:description" content="Paul Burton&#39;s Blog"/>
 
-        <meta property="og:title" content="Paul Burton&#39;s Blog" />
+        <meta property="og:title" content="axim" />
 <meta property="og:description" content="Paul Burton&#39;s Blog" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://paulburton.eu/" />
-<meta property="og:updated_time" content="2013-08-25T18:38:00&#43;00:00"/>
+<meta property="og:url" content="https://paulburton.eu/tags/axim/" />
+<meta property="og:updated_time" content="2010-08-01T16:03:00&#43;00:00"/>
 
         
-<meta itemprop="name" content="Paul Burton&#39;s Blog">
+<meta itemprop="name" content="axim">
 <meta itemprop="description" content="Paul Burton&#39;s Blog">
 
 
@@ -70,7 +76,6 @@
       <div id="wrapper">
 
     
-    
 <header id="header">
     
       <h1><a href="/">Paul Burton</a></h1>
@@ -101,10 +106,6 @@
     </nav>
     <nav class="main">
         <ul>
-            
-            <li id="share-nav" class="share-menu" style="display:none;">
-                <a class="fa-share-alt" href="#share-menu">Share</a>
-            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -276,174 +277,141 @@
     
     <div id="main">
         
+        
             <article class="post">
-  <header>
+    <header>
     <div class="title">
         
-            <h2><a href="/blog/20130825-archlinux-mips/">ArchLinux MIPS</a></h2>
+            <h2><a href="/blog/20100801-axdroid-update/">Axdroid Update</a></h2>
         
-        
-            <p>The beginning of the ArchLinux MIPS project</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2013-08-25'>
-            August 25, 2013</time>
+            datetime='2010-08-01'>
+            August 1, 2010</time>
         <span class="author"></span>
         
         
     </div>
 </header>
 
-
-  
-
-  
     
 
-    
-        
-        
+    <p>Wow, it&rsquo;s been over a month, I think it&rsquo;s about time I put up a new build!
+Changes since the last build:
+ I rewrote my build scripts. Doesn&rsquo;t mean much to you as a user, although the initial hit on the startup time is much reduced now. Dalvik still has to do it&rsquo;s thing and compile everything the first time you boot, but there&rsquo;s no more copying files around. Minor changes/tweaks that might help speed things up a little.</p>
 
-
-
-
-
-
-    
-
-
-        
-        
-        
-
-        <a href="/blog/20130825-archlinux-mips/" class="image featured">
-            <img src="/images//20130825-arch-qemu-kde.png" alt="">
-        </a>
-    
-
-
-  <div id="content">
-    <p>I&rsquo;ve been working recently on compiling ArchLinux for MIPS, more specifically
-mips32r2. It&rsquo;s going pretty well &amp; I&rsquo;m at the point of having enough packages
-to boot to a KDE desktop both in QEMU and on real hardware. My current focus
-is on automating the building of new and updated packages, which is
-progressing steadily. But in the meantime I thought I&rsquo;d show this and make
-it available to see who might be interested.</p>
-
-<p><img src="/images/20130825-arch-novo7paladin.png" alt="Novo7 Paladin Tablet running ArchLinux MIPS" /></p>
-
-<p>For the moment this lives <a href="http://home.paulburton.eu">on my home desktop</a> but
-I&rsquo;ll probably move it somewhere more suitable soon. The repository you&rsquo;ll need:</p>
-
-<p>Server = <a href="http://home.paulburton.eu/archlinux/$repo/os/$arch">http://home.paulburton.eu/archlinux/$repo/os/$arch</a></p>
-
-  </div>
-
-  <footer>
-    <ul class="stats">
+    <footer>
+        <ul class="actions">
+            <li><a href="/blog/20100801-axdroid-update/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
     
 
     
     
 </ul>
 
-  </footer>
-
+    </footer>
 </article>
 
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="/blog/20100627-quick-axdroid-update/">Quick Axdroid Update</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
 
-<ul class="actions pagination">
-    
-        <li><a href="/blog/20120705-announcing-fitbitd/"
-                class="button big previous">Announcing fitbitd</a></li>
+        <time class="published"
+            datetime='2010-06-27'>
+            June 27, 2010</time>
+        <span class="author"></span>
+        
+        
+    </div>
+</header>
+
     
 
+    <p>So, another days work led to this: axdroid_20100626.zip. The keyguard is now disabled so won&rsquo;t cause problems, the SD card is now accessible (eg. to the Music app) and I did a few things I think may have possibly sped it up slightly (including this being a user rather than eng build). I also reduced the size of the included swap file to 128MiB (from 256MiB). It will still take a fairly long time on the first boot whilst it creates the root filesystem image, so bear that in mind.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="/blog/20100627-quick-axdroid-update/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+
+    
     
 </ul>
 
-
-
-            <section id="share-menu">
-    <section id="social-share-nav">
-        <ul class="links">
-            <header>
-                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
-            </header>
-            
-
-
-<li>
-  <a href="//twitter.com/share?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&text=ArchLinux%20MIPS&via=" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-    </a>
-</li>
-
-
-<li>
-  <a href="//plus.google.com/share?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-    </a>
-</li>
-
-
-<li>
-  <a href="//reddit.com/submit?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&title=ArchLinux%20MIPS" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&title=ArchLinux%20MIPS" target="_blank" class="share-btn linkedin">
-      <i class="fa fa-linkedin"></i>
-      <p>LinkedIn</p>
-    </a>
-</li>
-
-
-<li>
-  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&title=ArchLinux%20MIPS" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f&description=ArchLinux%20MIPS" target="_blank" class="share-btn pinterest">
-    <i class="fa fa-pinterest-p"></i>
-    <p>Pinterest</p>
-  </a>
-</li>
-
-
-<li>
-  <a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fpaulburton.eu%2fblog%2f20130825-archlinux-mips%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-  </a>
-</li>
-
-        </ul>
-    </section>
-</section>
+    </footer>
+</article>
 
         
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="/blog/20100626-axdroid-image/">Axim Android (aka Axdroid) 2.2/Froyo First Test Image</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2010-06-26'>
+            June 26, 2010</time>
+        <span class="author"></span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>So if you want to try this for yourself, here&rsquo;s how:
+ Download axdroid_20100625.zip Unpack the files from there into the root of an SD card Enable mirror mode on your Axim Open file explorer on your Axim, navigate to the SD card and run haret Click run Wait - for quite a long time  I will reiterate that it runs pretty slowly, and that is especially true on the initial boot since the way I&rsquo;ve set it up means that it creates a root filesystem image on the SD card the first time it&rsquo;s run (BTW, make sure the SD card has 200MiB free for that).</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="/blog/20100626-axdroid-image/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+
+    
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+
+        
+<ul class="actions pagination">
+    
+        <li><a href="/tags/axim/page/3/"
+                class="button big previous">Previous Page</a></li>
+    
+
+    
+        <li><a href="/tags/axim/page/5/"
+                class="button big next">Next Page</a></li>
+    
+</ul>
+
     </div>
     
 <section id="sidebar">

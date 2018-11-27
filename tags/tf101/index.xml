@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tf101 on Paul Burton&#39;s Blog</title>
+    <link>https://paulburton.eu/tags/tf101/</link>
+    <description>Recent content in tf101 on Paul Burton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 12 Jan 2012 17:59:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://paulburton.eu/tags/tf101/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Transformer android project page</title>
+      <link>https://paulburton.eu/blog/20120112-transformer-android-project-page/</link>
+      <pubDate>Thu, 12 Jan 2012 17:59:00 +0000</pubDate>
+      
+      <guid>https://paulburton.eu/blog/20120112-transformer-android-project-page/</guid>
+      <description>So, just to be clear and in case you didn&amp;rsquo;t notice: anyone looking for android (ICS) builds for the ASUS Eee Pad Transformer TF101 should head over to the new project page which you can also see linked to on the right of the homepage. That will be kept up to date with the latest builds. It also contains a list of known issues and instructions for retrieving the source.</description>
+    </item>
+    
+    <item>
+      <title>ICS on the Transformer TF101 (Because exams are boring)</title>
+      <link>https://paulburton.eu/blog/20120105-ics-tf101/</link>
+      <pubDate>Thu, 05 Jan 2012 11:36:00 +0000</pubDate>
+      
+      <guid>https://paulburton.eu/blog/20120105-ics-tf101/</guid>
+      <description>I got bored of revision and decided to do something more interesting, which led to running Android 4.0.3 (Ice Cream Sandwich MR1) on my EEE Pad Transformer. It needs a lot of work still - basically the touchscreen &amp;amp; keyboard work and very little else, and the touchscreen is a bit of a bodge. It is all shiny and smooth though :) Progress may have to be slow until exams finish&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

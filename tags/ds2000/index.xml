@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ds2000 on Paul Burton&#39;s Blog</title>
+    <link>https://paulburton.eu/tags/ds2000/</link>
+    <description>Recent content in ds2000 on Paul Burton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 20 Apr 2010 18:09:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://paulburton.eu/tags/ds2000/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scope control update</title>
+      <link>https://paulburton.eu/blog/20100420-scope-control-update/</link>
+      <pubDate>Tue, 20 Apr 2010 18:09:00 +0000</pubDate>
+      
+      <guid>https://paulburton.eu/blog/20100420-scope-control-update/</guid>
+      <description>Interrupts on the mbed didn&amp;rsquo;t go so well - it&amp;rsquo;s easy enough to get them to run a function, but some timing issues arose and I gave up on that for now. Instead I&amp;rsquo;m relying on the fact that the Autostar continuously polls for data using the same sequence of bytes - 0x02 0x11 0x02 (which correspond to length 0x02, address 0x11 aka #506 cable and command number 0x02). So, whenever I need to speak to the Autostar I can regain sync by reading data from the Autostar until the last 24 bits read form the value 0x021102 - at which point I&amp;rsquo;m back in sync and ready to go :) It&amp;rsquo;s a bit of a hack, but it works and is good enough for me.</description>
+    </item>
+    
+    <item>
+      <title>It... speaks!!!</title>
+      <link>https://paulburton.eu/blog/20100415-it-speaks/</link>
+      <pubDate>Thu, 15 Apr 2010 02:58:00 +0000</pubDate>
+      
+      <guid>https://paulburton.eu/blog/20100415-it-speaks/</guid>
+      <description>Following up on the mbed scope-controlling idea:
+I just got this to work after many hours of coffee fueled hacking :) The mbed can now speak the Autostars kinda-i2c-but-kinda-not language, and in the pic there has asked the Autostar to report the scopes product name and firmware date.
+Next I need to look into how interrupts work on the mbed, as currently as soon as the mbed leaves the scope alone to do anything else (such as writing to the LCD) it will lose sync with the clock signal the Autostar outputs and communicating won&amp;rsquo;t work anymore.</description>
+    </item>
+    
+  </channel>
+</rss>

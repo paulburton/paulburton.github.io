@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spam on Paul Burton&#39;s Blog</title>
+    <link>https://paulburton.eu/tags/spam/</link>
+    <description>Recent content in spam on Paul Burton&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 21 Nov 2010 23:38:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://paulburton.eu/tags/spam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spammers...</title>
+      <link>https://paulburton.eu/blog/20101121-spammers/</link>
+      <pubDate>Sun, 21 Nov 2010 23:38:00 +0000</pubDate>
+      
+      <guid>https://paulburton.eu/blog/20101121-spammers/</guid>
+      <description>Currently, the comments system on this blog has 1156 pending comments, the vast majority of which are spam. There&amp;rsquo;s no way I&amp;rsquo;m going to spend hours sorting through all of them, so I&amp;rsquo;m afraid I&amp;rsquo;ll probably just delete them all and then look into some sort of filter. If you posted a legitimate comment that I haven&amp;rsquo;t gotten around to approving then I apologise&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>
