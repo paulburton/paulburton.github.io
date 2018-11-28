@@ -23,7 +23,7 @@
 <meta property="og:description" content="Paul Burton&#39;s Blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pburton.com/" />
-<meta property="og:updated_time" content="2013-08-25T18:38:00&#43;00:00"/>
+<meta property="og:updated_time" content="2010-12-13T23:11:00&#43;00:00"/>
 
 
     
@@ -148,80 +148,85 @@
     
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20130825-archlinux-mips/">ArchLinux MIPS</a>
+          <a href="/posts/20101213-axdroid/">Axdroid</a>
           
         </span>
         <span class="item__date">
-          Aug 25, 2013
+          Dec 13, 2010
         </span>
         
-        The beginning of the ArchLinux MIPS project
-        
-        
-          ... <a class="read-more-symbol" href="/posts/20130825-archlinux-mips/">➦</a>
-        
-        </div>
-     
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/20120705-announcing-fitbitd/">Announcing fitbitd</a>
-          
-        </span>
-        <span class="item__date">
-          Jul 05, 2012
-        </span>
-        
-        A new project has been added to the sidebar after consuming a number of days of my time. fitbitd lets you synchronise a FitBit tracker using a Linux machine, because I grew tired of firing up a windows virtual machine to do so. It also features an indicator to show trackers that have been seen recently. It&rsquo;s pretty early days, but is functional enough to be useful now.
-However, the indicator currently looks like this:
-        
-        
-          ... <a class="read-more-symbol" href="/posts/20120705-announcing-fitbitd/">➦</a>
-        
-        </div>
-     
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/20120112-transformer-android-project-page/">Transformer android project page</a>
-          
-        </span>
-        <span class="item__date">
-          Jan 12, 2012
-        </span>
-        
-        So, just to be clear and in case you didn&rsquo;t notice: anyone looking for android (ICS) builds for the ASUS Eee Pad Transformer TF101 should head over to the new project page which you can also see linked to on the right of the homepage. That will be kept up to date with the latest builds. It also contains a list of known issues and instructions for retrieving the source.
+        To clarify guys, I have some time off work coming up over new year period and am planning to do some work on Axdroid once the Gingerbread code is released (which will hopefully coincide with that quite nicely!).
         
         
         </div>
      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20120105-ics-tf101/">ICS on the Transformer TF101 (Because exams are boring)</a>
+          <a href="/posts/20101121-spammers/">Spammers...</a>
           
         </span>
         <span class="item__date">
-          Jan 05, 2012
+          Nov 21, 2010
         </span>
         
-        I got bored of revision and decided to do something more interesting, which led to running Android 4.0.3 (Ice Cream Sandwich MR1) on my EEE Pad Transformer. It needs a lot of work still - basically the touchscreen &amp; keyboard work and very little else, and the touchscreen is a bit of a bodge. It is all shiny and smooth though :) Progress may have to be slow until exams finish&hellip;
+        Currently, the comments system on this blog has 1156 pending comments, the vast majority of which are spam. There&rsquo;s no way I&rsquo;m going to spend hours sorting through all of them, so I&rsquo;m afraid I&rsquo;ll probably just delete them all and then look into some sort of filter. If you posted a legitimate comment that I haven&rsquo;t gotten around to approving then I apologise&hellip;
         
-        
-          ... <a class="read-more-symbol" href="/posts/20120105-ics-tf101/">➦</a>
         
         </div>
      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20110112-its-dead-jim/">It&#39;s dead Jim</a>
+          <a href="/posts/20100926-axdroid-moved/">Axdroid moved</a>
           
         </span>
         <span class="item__date">
-          Jan 12, 2011
+          Sep 26, 2010
         </span>
         
-        Well, I built gingerbread. It boots. It flashes up the lock screen, which looks quite nice. It swaps like crazy. It dies pretty quickly. Could it be made to not die? Yes, the timeouts Android uses to decide when to kill processes could be increased, but that doesn&rsquo;t solve the problem of it being so slow to begin with. Could it be made not so slow to begin with? Sure, whack in some more RAM.
+        For various reasons I just moved axdroid from github to gitorious. I also made some changes to the organisation of various config files, and changes like building the android platform code with the new toolchain, and linking busybox with bionic rather than needing eglibc (ie. the axdroid toolchain now targets baremetal, and the only libc around is bionic). If you build axdroid yourself, you can either update the git repo remotes to point to the right place and do an update (then clean is probably wise), or just start again with:
         
         
-          ... <a class="read-more-symbol" href="/posts/20110112-its-dead-jim/">➦</a>
+          ... <a class="read-more-symbol" href="/posts/20100926-axdroid-moved/">➦</a>
+        
+        </div>
+     
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/20100918-axdroid-20100916/">Axdroid 2010-09-16</a>
+          
+        </span>
+        <span class="item__date">
+          Sep 18, 2010
+        </span>
+        
+        Get it here :)
+Little in terms of major user visible changes again I&rsquo;m afraid. The biggest are probably that the lock screen is disabled once more (and in a much better way than I did before - I need to think of how I&rsquo;ll distribute this code though, I have to choose between a custom frameworks/base repo or a patch file&hellip;), and any key should wake up the device rather than just menu.
+        
+        
+          ... <a class="read-more-symbol" href="/posts/20100918-axdroid-20100916/">➦</a>
+        
+        </div>
+     
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/20100830-axdroid20100830/">Axdroid 2010-08-30</a>
+          
+        </span>
+        <span class="item__date">
+          Aug 30, 2010
+        </span>
+        
+        Oh my&hellip;
+Axdroid 2010-08-31 release 2, get it whilst it&rsquo;s hot.
+Axdroid 2010-08-31, get it whilst it&rsquo;s hot.
+Axdroid 2010-08-30 release 2, get it whilst it&rsquo;s hot.
+Axdroid 2010-08-30, get it whilst it&rsquo;s hot.
+So, there&rsquo;s nothing major in here, but I figured I&rsquo;d update everyone with the current build.
+Changes I can remember:
+ Android should actually fit on the screen properly for QVGA devices. Back/menu keys swapped, so that back is on the end.
+        
+        
+          ... <a class="read-more-symbol" href="/posts/20100830-axdroid20100830/">➦</a>
         
         </div>
      
@@ -234,8 +239,8 @@ However, the indicator currently looks like this:
         <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
     </li>
     
-    <li class="page-item disabled">
-    <a href="" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    <li class="page-item">
+    <a href="/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
     </li>
     
     
@@ -247,7 +252,7 @@ However, the indicator currently looks like this:
         
     
     
-    <li class="page-item active"><a class="page-link" href="/">1</a></li>
+    <li class="page-item"><a class="page-link" href="/">1</a></li>
     
     
     
@@ -258,7 +263,7 @@ However, the indicator currently looks like this:
         
     
     
-    <li class="page-item"><a class="page-link" href="/page/2/">2</a></li>
+    <li class="page-item active"><a class="page-link" href="/page/2/">2</a></li>
     
     
     
@@ -295,7 +300,7 @@ However, the indicator currently looks like this:
     
     
     <li class="page-item">
-    <a href="/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    <a href="/page/3/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">

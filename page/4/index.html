@@ -23,7 +23,7 @@
 <meta property="og:description" content="Paul Burton&#39;s Blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pburton.com/" />
-<meta property="og:updated_time" content="2013-08-25T18:38:00&#43;00:00"/>
+<meta property="og:updated_time" content="2010-06-27T00:30:00&#43;00:00"/>
 
 
     
@@ -148,80 +148,83 @@
     
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20130825-archlinux-mips/">ArchLinux MIPS</a>
+          <a href="/posts/20100627-quick-axdroid-update/">Quick Axdroid Update</a>
           
         </span>
         <span class="item__date">
-          Aug 25, 2013
+          Jun 27, 2010
         </span>
         
-        The beginning of the ArchLinux MIPS project
+        So, another days work led to this: axdroid_20100626.zip. The keyguard is now disabled so won&rsquo;t cause problems, the SD card is now accessible (eg. to the Music app) and I did a few things I think may have possibly sped it up slightly (including this being a user rather than eng build). I also reduced the size of the included swap file to 128MiB (from 256MiB). It will still take a fairly long time on the first boot whilst it creates the root filesystem image, so bear that in mind.
         
         
-          ... <a class="read-more-symbol" href="/posts/20130825-archlinux-mips/">➦</a>
+          ... <a class="read-more-symbol" href="/posts/20100627-quick-axdroid-update/">➦</a>
         
         </div>
      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20120705-announcing-fitbitd/">Announcing fitbitd</a>
+          <a href="/posts/20100626-axdroid-image/">Axim Android (aka Axdroid) 2.2/Froyo First Test Image</a>
           
         </span>
         <span class="item__date">
-          Jul 05, 2012
+          Jun 26, 2010
         </span>
         
-        A new project has been added to the sidebar after consuming a number of days of my time. fitbitd lets you synchronise a FitBit tracker using a Linux machine, because I grew tired of firing up a windows virtual machine to do so. It also features an indicator to show trackers that have been seen recently. It&rsquo;s pretty early days, but is functional enough to be useful now.
-However, the indicator currently looks like this:
+        So if you want to try this for yourself, here&rsquo;s how:
+ Download axdroid_20100625.zip Unpack the files from there into the root of an SD card Enable mirror mode on your Axim Open file explorer on your Axim, navigate to the SD card and run haret Click run Wait - for quite a long time  I will reiterate that it runs pretty slowly, and that is especially true on the initial boot since the way I&rsquo;ve set it up means that it creates a root filesystem image on the SD card the first time it&rsquo;s run (BTW, make sure the SD card has 200MiB free for that).
         
         
-          ... <a class="read-more-symbol" href="/posts/20120705-announcing-fitbitd/">➦</a>
+          ... <a class="read-more-symbol" href="/posts/20100626-axdroid-image/">➦</a>
         
         </div>
      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20120112-transformer-android-project-page/">Transformer android project page</a>
+          <a href="/posts/20100625-google-stole-2-days/">Google stole the past 2 days of my life</a>
           
         </span>
         <span class="item__date">
-          Jan 12, 2012
+          Jun 25, 2010
         </span>
         
-        So, just to be clear and in case you didn&rsquo;t notice: anyone looking for android (ICS) builds for the ASUS Eee Pad Transformer TF101 should head over to the new project page which you can also see linked to on the right of the homepage. That will be kept up to date with the latest builds. It also contains a list of known issues and instructions for retrieving the source.
+        Axim X51v running Android 2.2 Froyo :)
+It&rsquo;s pretty slow, but it works! Minus sound, WiFi, suspend (and probably other stuff I&rsquo;ve forgotten) that is.
         
         
         </div>
      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20120105-ics-tf101/">ICS on the Transformer TF101 (Because exams are boring)</a>
+          <a href="/posts/20100420-scope-control-update/">Scope control update</a>
           
         </span>
         <span class="item__date">
-          Jan 05, 2012
+          Apr 20, 2010
         </span>
         
-        I got bored of revision and decided to do something more interesting, which led to running Android 4.0.3 (Ice Cream Sandwich MR1) on my EEE Pad Transformer. It needs a lot of work still - basically the touchscreen &amp; keyboard work and very little else, and the touchscreen is a bit of a bodge. It is all shiny and smooth though :) Progress may have to be slow until exams finish&hellip;
+        Interrupts on the mbed didn&rsquo;t go so well - it&rsquo;s easy enough to get them to run a function, but some timing issues arose and I gave up on that for now. Instead I&rsquo;m relying on the fact that the Autostar continuously polls for data using the same sequence of bytes - 0x02 0x11 0x02 (which correspond to length 0x02, address 0x11 aka #506 cable and command number 0x02). So, whenever I need to speak to the Autostar I can regain sync by reading data from the Autostar until the last 24 bits read form the value 0x021102 - at which point I&rsquo;m back in sync and ready to go :) It&rsquo;s a bit of a hack, but it works and is good enough for me.
         
         
-          ... <a class="read-more-symbol" href="/posts/20120105-ics-tf101/">➦</a>
+          ... <a class="read-more-symbol" href="/posts/20100420-scope-control-update/">➦</a>
         
         </div>
      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/20110112-its-dead-jim/">It&#39;s dead Jim</a>
+          <a href="/posts/20100415-it-speaks/">It... speaks!!!</a>
           
         </span>
         <span class="item__date">
-          Jan 12, 2011
+          Apr 15, 2010
         </span>
         
-        Well, I built gingerbread. It boots. It flashes up the lock screen, which looks quite nice. It swaps like crazy. It dies pretty quickly. Could it be made to not die? Yes, the timeouts Android uses to decide when to kill processes could be increased, but that doesn&rsquo;t solve the problem of it being so slow to begin with. Could it be made not so slow to begin with? Sure, whack in some more RAM.
+        Following up on the mbed scope-controlling idea:
+I just got this to work after many hours of coffee fueled hacking :) The mbed can now speak the Autostars kinda-i2c-but-kinda-not language, and in the pic there has asked the Autostar to report the scopes product name and firmware date.
+Next I need to look into how interrupts work on the mbed, as currently as soon as the mbed leaves the scope alone to do anything else (such as writing to the LCD) it will lose sync with the clock signal the Autostar outputs and communicating won&rsquo;t work anymore.
         
         
-          ... <a class="read-more-symbol" href="/posts/20110112-its-dead-jim/">➦</a>
+          ... <a class="read-more-symbol" href="/posts/20100415-it-speaks/">➦</a>
         
         </div>
      
@@ -234,8 +237,8 @@ However, the indicator currently looks like this:
         <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
     </li>
     
-    <li class="page-item disabled">
-    <a href="" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    <li class="page-item">
+    <a href="/page/3/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
     </li>
     
     
@@ -247,7 +250,7 @@ However, the indicator currently looks like this:
         
     
     
-    <li class="page-item active"><a class="page-link" href="/">1</a></li>
+    <li class="page-item"><a class="page-link" href="/">1</a></li>
     
     
     
@@ -280,7 +283,7 @@ However, the indicator currently looks like this:
         
     
     
-    <li class="page-item disabled"><span aria-hidden="true">&nbsp;&hellip;&nbsp;</span></li>
+    <li class="page-item active"><a class="page-link" href="/page/4/">4</a></li>
     
     
     
@@ -295,7 +298,7 @@ However, the indicator currently looks like this:
     
     
     <li class="page-item">
-    <a href="/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    <a href="/page/5/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
