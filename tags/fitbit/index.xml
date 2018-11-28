@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fitbit on Paul Burton&#39;s Blog</title>
-    <link>https://paulburton.eu/tags/fitbit/</link>
+    <link>https://pburton.com/tags/fitbit/</link>
     <description>Recent content in fitbit on Paul Burton&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Jul 2012 13:26:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paulburton.eu/tags/fitbit/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pburton.com/tags/fitbit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Announcing fitbitd</title>
-      <link>https://paulburton.eu/blog/20120705-announcing-fitbitd/</link>
+      <link>https://pburton.com/blog/20120705-announcing-fitbitd/</link>
       <pubDate>Thu, 05 Jul 2012 13:26:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20120705-announcing-fitbitd/</guid>
+      <guid>https://pburton.com/blog/20120705-announcing-fitbitd/</guid>
       <description>A new project has been added to the sidebar after consuming a number of days of my time. fitbitd lets you synchronise a FitBit tracker using a Linux machine, because I grew tired of firing up a windows virtual machine to do so. It also features an indicator to show trackers that have been seen recently. It&amp;rsquo;s pretty early days, but is functional enough to be useful now.
 However, the indicator currently looks like this:</description>
     </item>

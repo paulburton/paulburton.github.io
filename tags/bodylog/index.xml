@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bodylog on Paul Burton&#39;s Blog</title>
-    <link>https://paulburton.eu/tags/bodylog/</link>
+    <link>https://pburton.com/tags/bodylog/</link>
     <description>Recent content in bodylog on Paul Burton&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 03 Mar 2010 04:56:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paulburton.eu/tags/bodylog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pburton.com/tags/bodylog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>It Lives!!!</title>
-      <link>https://paulburton.eu/blog/20100303-it-lives/</link>
+      <link>https://pburton.com/blog/20100303-it-lives/</link>
       <pubDate>Wed, 03 Mar 2010 04:56:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100303-it-lives/</guid>
+      <guid>https://pburton.com/blog/20100303-it-lives/</guid>
       <description>This is data from a Nintendo Wii balance board being rendered in a HTML5 canvas element within the chromium web browser :) It also works in firefox and epiphany. I&amp;rsquo;ll post more about my reasons for doing this soon.</description>
     </item>
     

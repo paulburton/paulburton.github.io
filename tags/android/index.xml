@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>android on Paul Burton&#39;s Blog</title>
-    <link>https://paulburton.eu/tags/android/</link>
+    <link>https://pburton.com/tags/android/</link>
     <description>Recent content in android on Paul Burton&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 12 Jan 2012 17:59:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paulburton.eu/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pburton.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Transformer android project page</title>
-      <link>https://paulburton.eu/blog/20120112-transformer-android-project-page/</link>
+      <link>https://pburton.com/blog/20120112-transformer-android-project-page/</link>
       <pubDate>Thu, 12 Jan 2012 17:59:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20120112-transformer-android-project-page/</guid>
+      <guid>https://pburton.com/blog/20120112-transformer-android-project-page/</guid>
       <description>So, just to be clear and in case you didn&amp;rsquo;t notice: anyone looking for android (ICS) builds for the ASUS Eee Pad Transformer TF101 should head over to the new project page which you can also see linked to on the right of the homepage. That will be kept up to date with the latest builds. It also contains a list of known issues and instructions for retrieving the source.</description>
     </item>
     
     <item>
       <title>ICS on the Transformer TF101 (Because exams are boring)</title>
-      <link>https://paulburton.eu/blog/20120105-ics-tf101/</link>
+      <link>https://pburton.com/blog/20120105-ics-tf101/</link>
       <pubDate>Thu, 05 Jan 2012 11:36:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20120105-ics-tf101/</guid>
+      <guid>https://pburton.com/blog/20120105-ics-tf101/</guid>
       <description>I got bored of revision and decided to do something more interesting, which led to running Android 4.0.3 (Ice Cream Sandwich MR1) on my EEE Pad Transformer. It needs a lot of work still - basically the touchscreen &amp;amp; keyboard work and very little else, and the touchscreen is a bit of a bodge. It is all shiny and smooth though :) Progress may have to be slow until exams finish&amp;hellip;</description>
     </item>
     
     <item>
       <title>It&#39;s dead Jim</title>
-      <link>https://paulburton.eu/blog/20110112-its-dead-jim/</link>
+      <link>https://pburton.com/blog/20110112-its-dead-jim/</link>
       <pubDate>Wed, 12 Jan 2011 18:37:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20110112-its-dead-jim/</guid>
+      <guid>https://pburton.com/blog/20110112-its-dead-jim/</guid>
       <description>Well, I built gingerbread. It boots. It flashes up the lock screen, which looks quite nice. It swaps like crazy. It dies pretty quickly. Could it be made to not die? Yes, the timeouts Android uses to decide when to kill processes could be increased, but that doesn&amp;rsquo;t solve the problem of it being so slow to begin with. Could it be made not so slow to begin with? Sure, whack in some more RAM.</description>
     </item>
     
     <item>
       <title>Axdroid</title>
-      <link>https://paulburton.eu/blog/20101213-axdroid/</link>
+      <link>https://pburton.com/blog/20101213-axdroid/</link>
       <pubDate>Mon, 13 Dec 2010 23:11:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20101213-axdroid/</guid>
+      <guid>https://pburton.com/blog/20101213-axdroid/</guid>
       <description>To clarify guys, I have some time off work coming up over new year period and am planning to do some work on Axdroid once the Gingerbread code is released (which will hopefully coincide with that quite nicely!).</description>
     </item>
     
     <item>
       <title>Axdroid moved</title>
-      <link>https://paulburton.eu/blog/20100926-axdroid-moved/</link>
+      <link>https://pburton.com/blog/20100926-axdroid-moved/</link>
       <pubDate>Sun, 26 Sep 2010 01:06:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100926-axdroid-moved/</guid>
+      <guid>https://pburton.com/blog/20100926-axdroid-moved/</guid>
       <description>For various reasons I just moved axdroid from github to gitorious. I also made some changes to the organisation of various config files, and changes like building the android platform code with the new toolchain, and linking busybox with bionic rather than needing eglibc (ie. the axdroid toolchain now targets baremetal, and the only libc around is bionic). If you build axdroid yourself, you can either update the git repo remotes to point to the right place and do an update (then clean is probably wise), or just start again with:</description>
     </item>
     
     <item>
       <title>Axdroid 2010-09-16</title>
-      <link>https://paulburton.eu/blog/20100918-axdroid-20100916/</link>
+      <link>https://pburton.com/blog/20100918-axdroid-20100916/</link>
       <pubDate>Sat, 18 Sep 2010 14:22:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100918-axdroid-20100916/</guid>
+      <guid>https://pburton.com/blog/20100918-axdroid-20100916/</guid>
       <description>Get it here :)
 Little in terms of major user visible changes again I&amp;rsquo;m afraid. The biggest are probably that the lock screen is disabled once more (and in a much better way than I did before - I need to think of how I&amp;rsquo;ll distribute this code though, I have to choose between a custom frameworks/base repo or a patch file&amp;hellip;), and any key should wake up the device rather than just menu.</description>
     </item>
     
     <item>
       <title>Axdroid 2010-08-30</title>
-      <link>https://paulburton.eu/blog/20100830-axdroid20100830/</link>
+      <link>https://pburton.com/blog/20100830-axdroid20100830/</link>
       <pubDate>Mon, 30 Aug 2010 19:35:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100830-axdroid20100830/</guid>
+      <guid>https://pburton.com/blog/20100830-axdroid20100830/</guid>
       <description>Oh my&amp;hellip;
 Axdroid 2010-08-31 release 2, get it whilst it&amp;rsquo;s hot.
 Axdroid 2010-08-31, get it whilst it&amp;rsquo;s hot.
@@ -84,28 +84,28 @@ Changes I can remember:
     
     <item>
       <title>Coming Soon</title>
-      <link>https://paulburton.eu/blog/20100829-coming-soon/</link>
+      <link>https://pburton.com/blog/20100829-coming-soon/</link>
       <pubDate>Sun, 29 Aug 2010 15:43:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100829-coming-soon/</guid>
+      <guid>https://pburton.com/blog/20100829-coming-soon/</guid>
       <description>wlan0 Link encap:Ethernet HWaddr 00:09:2D:83:B0:85 UP BROADCAST MULTICAST MTU:1500 Metric:1 RX packets:0 errors:0 dropped:0 overruns:0 frame:0 TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 collisions:0 txqueuelen:1000 RX bytes:0 (0.0 B) TX bytes:0 (0.0 B)  That is all.</description>
     </item>
     
     <item>
       <title>LibreDroid!</title>
-      <link>https://paulburton.eu/blog/20100828-libredroid/</link>
+      <link>https://pburton.com/blog/20100828-libredroid/</link>
       <pubDate>Sat, 28 Aug 2010 21:45:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100828-libredroid/</guid>
+      <guid>https://pburton.com/blog/20100828-libredroid/</guid>
       <description>I believe open source is the right way to do software. If it weren&amp;rsquo;t for open source I certainly wouldn&amp;rsquo;t know as much about computers as I do, and I&amp;rsquo;m certain it will teach me much more in the future. Plus, we wouldn&amp;rsquo;t have Linux and therefore wouldn&amp;rsquo;t have Android! So, it only seems right that AxDroid also be open :) In theory, you can now build AxDroid (if you have all the tools setup) with the following:</description>
     </item>
     
     <item>
       <title>Yup, more Axdroid</title>
-      <link>https://paulburton.eu/blog/20100810-yup-more-axdroid/</link>
+      <link>https://pburton.com/blog/20100810-yup-more-axdroid/</link>
       <pubDate>Tue, 10 Aug 2010 00:08:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100810-yup-more-axdroid/</guid>
+      <guid>https://pburton.com/blog/20100810-yup-more-axdroid/</guid>
       <description>New build Axdroid 2010-08-09 here!
 Changes since Saturdays build:
  JIT is enabled. It turns out the fancy new JIT compiler Android 2.2 introduced was disabled for ARMv5TE devices for some reason. This build has it enabled (actually I&amp;rsquo;m now using the dalvik code from the CyanogenMod ROMs). CompCache is included. This takes a chunk of RAM and uses it as a compressed swap device, so essentially you can fit more in there at the expense of a little processor time doing the (de)compression.</description>
@@ -113,10 +113,10 @@ Changes since Saturdays build:
     
     <item>
       <title>Another week, another build</title>
-      <link>https://paulburton.eu/blog/20100807-another-week-another-build/</link>
+      <link>https://pburton.com/blog/20100807-another-week-another-build/</link>
       <pubDate>Sat, 07 Aug 2010 21:13:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100807-another-week-another-build/</guid>
+      <guid>https://pburton.com/blog/20100807-another-week-another-build/</guid>
       <description>Get Axdroid 2010-08-07 here!
 So, changes since the last one:
  LCD setup should hopefully be fixed. On the X51v the LCD will no longer flicker, and the X51 should no longer be offset. Hopefully this doesn&amp;rsquo;t break the X50/X50v. Thanks to Max Fierke for the QVGA settings from an X51 :) The 2700g in the X51v and X50v is never going to be truly useful to us, the only thing we can use it for is an unaccelerated framebuffer - which we already have from the PXA270.</description>
@@ -124,10 +124,10 @@ So, changes since the last one:
     
     <item>
       <title>Axdroid Update</title>
-      <link>https://paulburton.eu/blog/20100801-axdroid-update/</link>
+      <link>https://pburton.com/blog/20100801-axdroid-update/</link>
       <pubDate>Sun, 01 Aug 2010 16:03:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100801-axdroid-update/</guid>
+      <guid>https://pburton.com/blog/20100801-axdroid-update/</guid>
       <description>Wow, it&amp;rsquo;s been over a month, I think it&amp;rsquo;s about time I put up a new build!
 Changes since the last build:
  I rewrote my build scripts. Doesn&amp;rsquo;t mean much to you as a user, although the initial hit on the startup time is much reduced now. Dalvik still has to do it&amp;rsquo;s thing and compile everything the first time you boot, but there&amp;rsquo;s no more copying files around. Minor changes/tweaks that might help speed things up a little.</description>
@@ -135,29 +135,29 @@ Changes since the last build:
     
     <item>
       <title>Quick Axdroid Update</title>
-      <link>https://paulburton.eu/blog/20100627-quick-axdroid-update/</link>
+      <link>https://pburton.com/blog/20100627-quick-axdroid-update/</link>
       <pubDate>Sun, 27 Jun 2010 00:30:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100627-quick-axdroid-update/</guid>
+      <guid>https://pburton.com/blog/20100627-quick-axdroid-update/</guid>
       <description>So, another days work led to this: axdroid_20100626.zip. The keyguard is now disabled so won&amp;rsquo;t cause problems, the SD card is now accessible (eg. to the Music app) and I did a few things I think may have possibly sped it up slightly (including this being a user rather than eng build). I also reduced the size of the included swap file to 128MiB (from 256MiB). It will still take a fairly long time on the first boot whilst it creates the root filesystem image, so bear that in mind.</description>
     </item>
     
     <item>
       <title>Axim Android (aka Axdroid) 2.2/Froyo First Test Image</title>
-      <link>https://paulburton.eu/blog/20100626-axdroid-image/</link>
+      <link>https://pburton.com/blog/20100626-axdroid-image/</link>
       <pubDate>Sat, 26 Jun 2010 10:50:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100626-axdroid-image/</guid>
+      <guid>https://pburton.com/blog/20100626-axdroid-image/</guid>
       <description>So if you want to try this for yourself, here&amp;rsquo;s how:
  Download axdroid_20100625.zip Unpack the files from there into the root of an SD card Enable mirror mode on your Axim Open file explorer on your Axim, navigate to the SD card and run haret Click run Wait - for quite a long time  I will reiterate that it runs pretty slowly, and that is especially true on the initial boot since the way I&amp;rsquo;ve set it up means that it creates a root filesystem image on the SD card the first time it&amp;rsquo;s run (BTW, make sure the SD card has 200MiB free for that).</description>
     </item>
     
     <item>
       <title>Google stole the past 2 days of my life</title>
-      <link>https://paulburton.eu/blog/20100625-google-stole-2-days/</link>
+      <link>https://pburton.com/blog/20100625-google-stole-2-days/</link>
       <pubDate>Fri, 25 Jun 2010 22:14:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20100625-google-stole-2-days/</guid>
+      <guid>https://pburton.com/blog/20100625-google-stole-2-days/</guid>
       <description>Axim X51v running Android 2.2 Froyo :)
 It&amp;rsquo;s pretty slow, but it works! Minus sound, WiFi, suspend (and probably other stuff I&amp;rsquo;ve forgotten) that is.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>galaxium on Paul Burton&#39;s Blog</title>
-    <link>https://paulburton.eu/tags/galaxium/</link>
+    <link>https://pburton.com/tags/galaxium/</link>
     <description>Recent content in galaxium on Paul Burton&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Jun 2008 16:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paulburton.eu/tags/galaxium/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pburton.com/tags/galaxium/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Speed, Speed, Glorious Speed</title>
-      <link>https://paulburton.eu/blog/20080622-speedspeedgloriousspeed/</link>
+      <link>https://pburton.com/blog/20080622-speedspeedgloriousspeed/</link>
       <pubDate>Sun, 22 Jun 2008 16:30:00 +0000</pubDate>
       
-      <guid>https://paulburton.eu/blog/20080622-speedspeedgloriousspeed/</guid>
+      <guid>https://pburton.com/blog/20080622-speedspeedgloriousspeed/</guid>
       <description>The above is a screenshot of Galaxium&amp;rsquo;s file transfer window, whilst sending a file to a WLM client. The speed gets cut off in the column, but that reads &amp;lsquo;424.18 KB/s&amp;rsquo;.
 There are a lot of rough edges right now, but fast file transfers are coming :)</description>
     </item>
