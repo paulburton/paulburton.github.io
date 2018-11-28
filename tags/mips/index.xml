@@ -13,10 +13,10 @@
     
     <item>
       <title>ArchLinux MIPS</title>
-      <link>https://pburton.com/blog/20130825-archlinux-mips/</link>
+      <link>https://pburton.com/posts/20130825-archlinux-mips/</link>
       <pubDate>Sun, 25 Aug 2013 18:38:00 +0000</pubDate>
       
-      <guid>https://pburton.com/blog/20130825-archlinux-mips/</guid>
+      <guid>https://pburton.com/posts/20130825-archlinux-mips/</guid>
       <description>I&amp;rsquo;ve been working recently on compiling ArchLinux for MIPS, more specifically mips32r2. It&amp;rsquo;s going pretty well &amp;amp; I&amp;rsquo;m at the point of having enough packages to boot to a KDE desktop both in QEMU and on real hardware. My current focus is on automating the building of new and updated packages, which is progressing steadily. But in the meantime I thought I&amp;rsquo;d show this and make it available to see who might be interested.</description>
     </item>
     

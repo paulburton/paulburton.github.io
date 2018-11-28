@@ -13,19 +13,19 @@
     
     <item>
       <title>It&#39;s dead Jim</title>
-      <link>https://pburton.com/blog/20110112-its-dead-jim/</link>
+      <link>https://pburton.com/posts/20110112-its-dead-jim/</link>
       <pubDate>Wed, 12 Jan 2011 18:37:00 +0000</pubDate>
       
-      <guid>https://pburton.com/blog/20110112-its-dead-jim/</guid>
+      <guid>https://pburton.com/posts/20110112-its-dead-jim/</guid>
       <description>Well, I built gingerbread. It boots. It flashes up the lock screen, which looks quite nice. It swaps like crazy. It dies pretty quickly. Could it be made to not die? Yes, the timeouts Android uses to decide when to kill processes could be increased, but that doesn&amp;rsquo;t solve the problem of it being so slow to begin with. Could it be made not so slow to begin with? Sure, whack in some more RAM.</description>
     </item>
     
     <item>
       <title>Axdroid</title>
-      <link>https://pburton.com/blog/20101213-axdroid/</link>
+      <link>https://pburton.com/posts/20101213-axdroid/</link>
       <pubDate>Mon, 13 Dec 2010 23:11:00 +0000</pubDate>
       
-      <guid>https://pburton.com/blog/20101213-axdroid/</guid>
+      <guid>https://pburton.com/posts/20101213-axdroid/</guid>
       <description>To clarify guys, I have some time off work coming up over new year period and am planning to do some work on Axdroid once the Gingerbread code is released (which will hopefully coincide with that quite nicely!).</description>
     </item>
     
